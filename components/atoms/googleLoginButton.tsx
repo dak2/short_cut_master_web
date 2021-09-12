@@ -8,7 +8,7 @@ const GoogleLoginButton = () => {
   return (
     <GoogleLogin
       clientId={process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID as string}
-      buttonText="Login"
+      buttonText="Login with Google"
       onSuccess={responseGoogle}
       onFailure={responseGoogle}
       cookiePolicy={"single_host_origin"}
