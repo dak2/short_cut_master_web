@@ -14,9 +14,9 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>ショートカットマスター</h1>
 
-        <div>
-          <h3 className={styles.loginContainer}>はじめての方</h3>
-          <h3 className={styles.loginContainer}>それ以外の方</h3>
+        <div className={styles.loginContainer}>
+          <h3>はじめての方</h3>
+          <h3>それ以外の方</h3>
         </div>
       </main>
     </div>
